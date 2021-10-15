@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 import './directory.style.scss';
-import jackets from '../../images/jackets.jpg';
+import Jackets from '../../images/jackets.jpg';
 import Sneakers from '../../images/sneakers.jpg';
 import Hats from '../../images/hats.jpg';
 import Men from '../../images/men.jpg';
@@ -14,7 +14,7 @@ class Directory extends React.Component{
             sections : [
                 {
                     title: 'jackets',
-                    imageUrl: jackets,
+                    imageUrl: Jackets,
                     id: 1
                 },
                 {
